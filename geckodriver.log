@@ -1,0 +1,20 @@
+1594620201934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lokes\\AppData\\Local\\Temp\\rust_mozprofileZA1ZXN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1594620206906	Marionette	INFO	Listening on port 57732
+1594620208224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594620214230	Marionette	INFO	Stopped listening on port 57732
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1637944040774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lokes\\AppData\\Local\\Temp\\rust_mozprofilebt4Kfi"
+1637944046165	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lokes\\AppData\\Local\\Temp\\rust_mozprofilebt4Kfi\\search.json.mozlz4", (void 0)))
+1637944065368	Marionette	INFO	Listening on port 52091
+1637944066031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637944452783	Marionette	INFO	Stopped listening on port 52091
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
